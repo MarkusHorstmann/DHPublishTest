@@ -8,10 +8,10 @@ namespace ClassLibrary1
 {
     public class Class1
     {
-        int i = 0;
+        static int i = 0;
         public string ComputeButtonText()
         {
-            return String.Format("X{0} {1}", i++, DateTime.Now.ToString();
+            return String.Format("X{0} {1}", i++, DateTime.Now.ToString());
         }
     }
 }
