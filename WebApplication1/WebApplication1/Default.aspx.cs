@@ -17,7 +17,7 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            this.Button1.Text = new Class1().ComputeButtonText();
+            this.Button1.Text = new Class2().ComputeButtonText();
         }
     }
 }
