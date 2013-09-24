@@ -16,7 +16,7 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            this.Button1.Text = DateTime.Now.ToString();
+            this.Button1.Text = "X "+DateTime.Now.ToString();
         }
     }
 }
