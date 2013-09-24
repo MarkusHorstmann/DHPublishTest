@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using ClassLibrary1;
 
 namespace WebApplication1
 {
@@ -16,7 +17,7 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            this.Button1.Text = "X "+DateTime.Now.ToString();
+            this.Button1.Text = new Class1().ComputeButtonText();
         }
     }
 }
